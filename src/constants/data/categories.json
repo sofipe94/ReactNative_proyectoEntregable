@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Artistas",
+        "backgroundColor": "#E4DDDE",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Artistas1.png?alt=media&token=ac3100cb-2259-4d61-8bd1-5f4a0ed615d7"
+    },
+    {
+        "id": 2,
+        "name": "Botánicas",
+        "backgroundColor": "#ADC2B7",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Bot%C3%A1nica1.png?alt=media&token=8d3700f1-4dbf-45bb-8eaa-44ffe8cb53e1"
+    },
+    {
+        "id": 3,
+        "name": "Geométricas",
+        "backgroundColor": "#F2DFE5",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Geom%C3%A9tricas2.png?alt=media&token=e70f940b-5784-4fce-8c10-3d02f77f2950"
+    }
+]

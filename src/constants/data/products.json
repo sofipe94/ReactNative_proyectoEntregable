@@ -1,0 +1,241 @@
+[
+    {
+        "id": 1,
+        "categoryId": 1,
+        "name": "Artista: Picasso",
+        "description": "Lámina de 20x30cm cuadro de Picasso",
+        "price": 1500,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Artistas1.png?alt=media&token=ac3100cb-2259-4d61-8bd1-5f4a0ed615d7",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "artistas",
+            "picasso",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 5,
+        "stock": 4
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "Artista: Van Gogh",
+        "description": "Lámina de 20x30cm cuadro de Van Gogh",
+        "price": 2000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Artistas2.png?alt=media&token=1768b6fc-8069-4a6c-bd21-9fae36ea92c3",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "artistas",
+            "van gogh",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 4.5,
+        "stock": 1
+    },
+    {
+        "id": 3,
+        "categoryId": 1,
+        "name": "Artista: Klint",
+        "description": "Lámina de 20x30cm cuadro de Klint",
+        "price": 1200,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Artistas3.png?alt=media&token=62863687-8908-4374-8099-3441f5714c23",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "artistas",
+            "klint",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 5,
+        "stock": 7
+    },
+    {
+        "id": 4,
+        "categoryId": 2,
+        "name": "Botánica: Terracota",
+        "description": "Lámina de 20x30cm flores en colores tierra",
+        "price": 800,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Bot%C3%A1nica1.png?alt=media&token=8d3700f1-4dbf-45bb-8eaa-44ffe8cb53e1",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "botanicas",
+            "tierra",
+            "terracota",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 4.5,
+        "stock": 8
+    },
+    {
+        "id": 5,
+        "categoryId": 2,
+        "name": "Botánica: Flores",
+        "description": "Lámina de 20x30cm variedad de flores",
+        "price": 800,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Bot%C3%A1nica2.png?alt=media&token=a46cf84e-1c70-4f44-8902-ce0f80da6f91",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "botanicas",
+            "flores",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 4,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "categoryId": 2,
+        "name": "Botánica: Bologna",
+        "description": "Lámina de 20x30cm Flower Market Bologna",
+        "price": 1000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Bot%C3%A1nica3.png?alt=media&token=722d43f1-3575-4631-80f6-2a7f161822ba",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "botanicas",
+            "market",
+            "bologna",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 4,
+        "stock": 7
+    },
+    {
+        "id": 7,
+        "categoryId": 3,
+        "name": "Geométricas: Mar",
+        "description": "Lámina de 20x30cm mar de lineas",
+        "price": 1100,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Geom%C3%A9tricas1.png?alt=media&token=5706fa49-274e-4ffa-b0aa-281f3d9c1d9a",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "geometricas",
+            "mar",
+            "lineas",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 4,
+        "stock": 15
+    },
+    {
+        "id": 8,
+        "categoryId": 3,
+        "name": "Geométricas: Arco",
+        "description": "Lámina de 20x30cm arcos geométricos",
+        "price": 900,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Geom%C3%A9tricas2.png?alt=media&token=e70f940b-5784-4fce-8c10-3d02f77f2950",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "geometricas",
+            "arco",
+            "lineas",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 4,
+        "stock": 23
+    },
+    {
+        "id": 9,
+        "categoryId": 3,
+        "name": "Geométricas: Ciudad",
+        "description": "LLámina de 20x30cm ciudad geométrica",
+        "price": 1100,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-51385-11bf2.appspot.com/o/Geom%C3%A9tricas3.png?alt=media&token=c7edf499-1a03-4d20-8418-44d8ac126591",
+        "currency": {
+            "symbol": "$",
+            "code": "$",
+            "name": "Peso Argentino"
+        },
+        "quantity": 1,
+        "tags": [
+            "geometricas",
+            "ciudad",
+            "lineas",
+            "lamina",
+            "cuadro",
+            "decoracion"
+        ],
+        "features": [
+            "20x30cm"
+        ],
+        "rating": 4,
+        "stock": 18
+    }
+]
