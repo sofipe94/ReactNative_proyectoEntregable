@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { COLORS } from '../../../themes';
+import { COLORS, FONTS } from '../../../themes';
 
 export const styles = StyleSheet.create({
   container: {
@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
   },
   categoryName: {
     fontSize: 20,
-    fontFamily: 'Niramit-Bold',
+    fontFamily: FONTS.bold,
     color: COLORS.texts,
     padding: 20,
     textShadowColor: 'rgba(0,0, 0, 0.75)',
@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
   },
   categoryNameTablet: {
     fontSize: 35,
-    fontFamily: 'Niramit-Bold',
+    fontFamily: FONTS.bold,
     color: COLORS.texts,
     padding: 20,
     textShadowColor: 'rgba(0,0, 0, 0.75)',

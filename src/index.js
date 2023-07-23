@@ -2,19 +2,21 @@ import { useFonts } from 'expo-font';
 import { SafeAreaView, StyleSheet, View, ActivityIndicator } from 'react-native';
 
 import RootNavigator from './navigations/index';
-import { COLORS } from './themes';
+import { COLORS, FONTS } from './themes';
 
 // const categoryDefault = {
 //   categoryId: null,
 //   color: COLORS.primary,
 // };
+
 export default function App() {
   const [loaded] = useFonts({
-    'Niramit-Bold': require('../assets/fonts/Niramit-Bold.ttf'),
-    'Niramit-Light': require('../assets/fonts/Niramit-Light.ttf'),
-    'Niramit-Medium': require('../assets/fonts/Niramit-Medium.ttf'),
-    'Niramit-Regular': require('../assets/fonts/Niramit-Regular.ttf'),
+    [FONTS.bold]: require('../assets/fonts/Niramit-Bold.ttf'),
+    [FONTS.light]: require('../assets/fonts/Niramit-Light.ttf'),
+    [FONTS.medium]: require('../assets/fonts/Niramit-Medium.ttf'),
+    [FONTS.regular]: require('../assets/fonts/Niramit-Regular.ttf'),
   });
+
   // const [isCategorySelected, setIsCategorySelected] = useState(false);
   // const [selectedCategory, setSelectedCategory] = useState(categoryDefault);
 

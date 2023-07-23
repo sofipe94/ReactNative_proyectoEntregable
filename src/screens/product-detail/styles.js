@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { COLORS } from '../../themes';
+import { COLORS, FONTS } from '../../themes';
 
 export const styles = StyleSheet.create({
   container: {
@@ -20,19 +20,19 @@ export const styles = StyleSheet.create({
     gap: 10,
   },
   name: {
-    fontFamily: 'Niramit-Bold',
+    fontFamily: FONTS.bold,
     fontSize: 18,
   },
   description: {
-    fontFamily: 'Niramit-Regular',
+    fontFamily: FONTS.regular,
     fontSize: 14,
   },
   tagTitle: {
-    fontFamily: 'Niramit-Bold',
+    fontFamily: FONTS.bold,
     fontSize: 16,
   },
   price: {
-    fontFamily: 'Niramit-Bold',
+    fontFamily: FONTS.bold,
     fontSize: 20,
   },
   containerTags: {

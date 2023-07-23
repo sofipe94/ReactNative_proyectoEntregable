@@ -1,6 +1,6 @@
 import { StyleSheet, StatusBar } from 'react-native';
 
-import { COLORS } from '../../themes';
+import { COLORS, FONTS } from '../../themes';
 
 export const styles = StyleSheet.create({
   container: {
@@ -36,11 +36,11 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     color: COLORS.texts,
-    fontFamily: 'Niramit-Bold',
+    fontFamily: FONTS.bold,
   },
   tabletTitle: {
     fontSize: 35,
     color: COLORS.texts,
-    fontFamily: 'Niramit-Bold',
+    fontFamily: FONTS.bold,
   },
 });

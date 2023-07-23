@@ -1,11 +1,11 @@
 import { Ionicons } from '@expo/vector-icons';
-import { createNativeStackNavigation } from '@react-navigation/native-stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 
 import { Categories, Products, ProductDetail } from '../screens';
-import { COLORS } from '../themes';
+import { COLORS, FONTS } from '../themes';
 
-const Stack = createNativeStackNavigation();
+const Stack = createNativeStackNavigator();
 
 function ShopNavigator() {
   return (
@@ -18,7 +18,7 @@ function ShopNavigator() {
         },
         headerTintColor: COLORS.white,
         headerTitleStyle: {
-          fontFamily: 'Niramit-Bold',
+          fontFamily: FONTS.bold,
           fontSize: 16,
         },
         animation: 'fade_from_bottom',
