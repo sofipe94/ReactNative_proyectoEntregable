@@ -12,11 +12,11 @@ function ShopNavigator() {
     <Stack.Navigator
       initialRouteName="Categories"
       screenOptions={() => ({
-        headerstyle: {
+        headerStyle: {
           backgroundColor: COLORS.primary,
           height: 80,
         },
-        headerTintColor: COLORS.white,
+        headerTintColor: COLORS.black,
         headerTitleStyle: {
           fontFamily: FONTS.bold,
           fontSize: 16,

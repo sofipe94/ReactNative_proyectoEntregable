@@ -1,4 +1,4 @@
-import { TouchableHighlight, ImageBackground, Text, useWindowDimensions } from 'react-native';
+import { TouchableHighlight, ImageBackground, Text } from 'react-native';
 
 import { styles } from './styles';
 import { COLORS } from '../../../themes';
