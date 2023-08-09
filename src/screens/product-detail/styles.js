@@ -61,6 +61,11 @@ export const styles = StyleSheet.create({
   addToCartText: {
     fontFamily: FONTS.medium,
     fontSize: 16,
-    color: COLORS.black,
+    color: COLORS.white,
+  },
+  containerLoader: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });

@@ -1,11 +1,18 @@
-import { View, Text } from 'react-native';
+import { View, Text, TouchableOpacity, FlatList } from 'react-native';
 
 import { styles } from './styles';
+import { OrderItem } from '../../components';
+import { useGetOrdersQuery } from '../../store/orders/api';
 
 const Orders = () => {
+  const { data, error, isLoading } = useGetOrdersQuery();
+
+  const renderItem = ({ item }) => <OrderItem {...item} />;
+
+  const keyExtractor = (item) => item.id.toString();
   return (
     <View style={styles.container}>
-      <Text>Orders</Text>
+      <FlatList data={data} renderItem={renderItem} keyExtractor={keyExtractor} />
     </View>
   );
 };
