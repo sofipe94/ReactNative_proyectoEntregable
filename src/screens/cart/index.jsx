@@ -87,7 +87,7 @@ const Cart = ({ navigation }) => {
           <Text style={styles.checkoutButtonText}>Checkout</Text>
           <View style={styles.totalContainer}>
             <Text style={styles.totalText}>Total:</Text>
-            <Text style={styles.totalPriceText}>USD {total}</Text>
+            <Text style={styles.totalPriceText}>$ {total}</Text>
           </View>
         </TouchableOpacity>
       </View>

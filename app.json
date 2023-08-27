@@ -24,27 +24,39 @@
           "initialOrientation": "DEFAULT"
         }
       ],
-    [
-      "expo-image-picker",
-      {
-        "photoPermission": "The app access your photos to let you share them with your friends."
-      }
+      [
+        "expo-image-picker",
+        {
+          "photoPermission": "The app access your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
     ],
-    [
-      "expo-location",
-      {
-        "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
-      }
-    ]
-  ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE"
+      ],
+      "package": "com.ssofipereyra.mulitastore"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "938bed80-f931-40fa-8f6a-8c0ad868899f"
+      }
     }
   }
 }

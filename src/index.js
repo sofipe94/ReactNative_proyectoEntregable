@@ -2,14 +2,19 @@ import { useFonts } from 'expo-font';
 import { StyleSheet, View, ActivityIndicator } from 'react-native';
 import { Provider } from 'react-redux';
 
-import RootNavigator from './navigations/index';
+import { init } from './db';
+import RootNavigator from './navigations';
 import { store } from './store';
-import { COLORS, FONTS } from './themes';
+import { FONTS, COLORS } from './themes';
 
-// const categoryDefault = {
-//   categoryId: null,
-//   color: COLORS.primary,
-// };
+init()
+  .then(() => {
+    console.log('Initialized database');
+  })
+  .catch((err) => {
+    console.log('Initializing db failed');
+    console.log(err);
+  });
 
 export default function App() {
   const [loaded] = useFonts({
@@ -18,20 +23,6 @@ export default function App() {
     [FONTS.medium]: require('../assets/fonts/Niramit-Medium.ttf'),
     [FONTS.regular]: require('../assets/fonts/Niramit-Regular.ttf'),
   });
-
-  // const [isCategorySelected, setIsCategorySelected] = useState(false);
-  // const [selectedCategory, setSelectedCategory] = useState(categoryDefault);
-
-  // const headerTitle = isCategorySelected ? 'Products' : 'Categories';
-
-  // const onHandleSelectCategory = ({ categoryId, color }) => {
-  //   setSelectedCategory({ categoryId, color });
-  //   setIsCategorySelected(!isCategorySelected);
-  // };
-  // const onHandleNavigate = () => {
-  //   setIsCategorySelected(!isCategorySelected);
-  //   setSelectedCategory(categoryDefault);
-  // };
 
   if (!loaded) {
     return (

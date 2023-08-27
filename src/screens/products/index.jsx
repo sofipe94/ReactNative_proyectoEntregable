@@ -8,7 +8,6 @@ import {
   ImageBackground,
   ActivityIndicator,
 } from 'react-native';
-import { useSelector } from 'react-redux';
 
 import { styles } from './styles';
 import { Input } from '../../components';
@@ -18,6 +17,8 @@ import { COLORS } from '../../themes';
 function Product({ navigation, route }) {
   const { categoryId, color } = route.params;
   const { data, error, isLoading } = useGetProductsByCategoryQuery(categoryId);
+
+  console.warn({ data });
   const [search, setSearch] = useState('');
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [borderColor, setBorderColor] = useState(COLORS.primary);
